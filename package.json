@@ -1,0 +1,14 @@
+{
+  "name": "rankacorn",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Rankacorn - independent SEO tools platform (dependency-free runtime)",
+  "engines": { "node": ">=22.6" },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env --experimental-strip-types --no-warnings src/server.ts",
+    "dev": "node --watch --env-file-if-exists=.env --experimental-strip-types --no-warnings src/server.ts",
+    "test": "node --experimental-strip-types --no-warnings --test tests/*.test.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
